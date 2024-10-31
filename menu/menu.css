@@ -1,0 +1,57 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 100px;
+    height: 600px;
+  }
+  
+  #home { background-color: #13fe55; }
+  #services { background-color: #fc6363; }
+  #about { background-color: #340ea7; }
+  #contact { background-color: #f9cf13; }
+  
+  /* Change navbar background when scrolled */
+  .scrolled {
+    background-color: #000 !important;
+  }
+  
